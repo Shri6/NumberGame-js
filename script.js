@@ -35,6 +35,8 @@ document.querySelector(".check").addEventListener("click", function () {
   }
 });
 
+console.log('check github');
+
 document.querySelector(".again").addEventListener("click", function () {
   if (win) {
     if (score > highscore) {
